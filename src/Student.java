@@ -23,7 +23,7 @@ public class Student {
                 }
             } catch (Exception e) {
                 System.out.println("Please enter only numbers");
-                scanner.nextInt();
+                scanner.next();
             }
         }
 
